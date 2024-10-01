@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.userDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    & > .userName {
+        color: #525252;
+    }
+}
+
+.cardBody {
+    line-height: 24px;
+    color: #525252;
+}
