@@ -2,9 +2,14 @@ import Image from "next/image";
 import Card from "./Card/Card";
 import styles from "./TestimonialCard.module.css";
 
-function TestimonialCard() {
+type TestimonialCardProps = {
+  className?: string;
+};
+
+function TestimonialCard(props: TestimonialCardProps) {
+  const { className } = props;
   return (
-    <Card>
+    <Card className={className}>
       <div className={styles.header}>
         <Image
           src="/profile-thumbnail.png"
