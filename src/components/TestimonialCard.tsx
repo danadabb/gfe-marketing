@@ -13,7 +13,7 @@ function TestimonialCard() {
           width={48}
         />
         <div className={styles.userDetails}>
-          <strong>Sarah Doyle</strong>
+          <h3>Sarah Doyle</h3>
           <span className={styles.userName}>@sarahdole</span>
         </div>
       </div>
