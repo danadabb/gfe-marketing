@@ -1,0 +1,35 @@
+.card {
+    padding: 0px;
+    overflow: hidden;
+    /* Ensures child content respects the rounded border */
+}
+
+.blogImage {
+    height: 288px;
+    width: 100%;
+    position: relative;
+    margin: 0px
+}
+
+.mainContent {
+    padding: 24px 16px;
+}
+
+.title {
+    margin-top: 8px;
+}
+
+.description {
+    margin: 8px 0px 24px 0px;
+    color: #525252;
+}
+
+.button {
+    display: flex;
+    color: #4338ca;
+    text-decoration: none;
+    border: none;
+    align-items: center;
+    gap: 12px;
+    width: fit-content;
+}
